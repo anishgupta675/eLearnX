@@ -1,9 +1,4 @@
-// const { instance } = require("../config/razorpay")
-const Razorpay = require("../config/razorpay")
-const instance = new Razorpay({
-  key_id: rzp_live_6NEMkMwtW0VXWs,  // insert live-generated Razorpay API key ID here
-  key_secret: 0 // insert live-generated Razorpay API key secret here
-});
+const { instance } = require("../config/razorpay")
 const Course = require("../models/Course")
 const crypto = require("crypto")
 const User = require("../models/User")
